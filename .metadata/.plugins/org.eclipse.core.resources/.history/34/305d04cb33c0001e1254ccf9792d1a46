@@ -1,0 +1,27 @@
+package application;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Program {
+
+	public static void main(String[] args) {
+
+		List<String> list = new ArrayList<>();
+		
+		list.add("Rebecca");
+		list.add("Malu");
+		list.add("Anita");
+		list.add("Perola");
+		list.add("Sophia");
+		list.add("Rosa");
+        list.add(2, "Marina");
+        
+        System.out.println(list.size());
+        
+		for(String x: list) {
+			System.out.println(x);
+		}
+	}
+
+}
